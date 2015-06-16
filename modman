@@ -1,0 +1,3 @@
+app/code/community/MageMash/NewProductList                        app/code/community/MageMash/NewProductList/
+app/etc/modules/MageMash_NewProductList.xml                       app/etc/modules/MageMash_NewProductList.xml
+app/design/frontend/base/default/layout/magemash_newproductlist.xml     app/design/frontend/base/default/layout/magemash_newproductlist.xml

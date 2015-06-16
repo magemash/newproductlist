@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageMash_NewProductList>
+            <version>1.0.0</version>
+        </MageMash_NewProductList>
+    </modules>
+    <global>
+        <blocks>
+            <magemash_newproductlist>
+                <class>MageMash_NewProductList_Block</class>
+            </magemash_newproductlist>
+        </blocks>
+        <helpers>
+            <magemash_newproductlist>
+                <class>MageMash_NewProductList_Helper</class>
+            </magemash_newproductlist>
+        </helpers>
+    </global>
+
+    <frontend>
+        <routers>
+            <new>
+                <use>standard</use>
+                <args>
+                    <module>MageMash_NewProductList</module>
+                    <frontName>new</frontName>
+                </args>
+            </new>
+        </routers>
+
+        <layout>
+            <updates>
+                <magemash_newproductlist>
+                    <file>magemash_newproductlist.xml</file>
+                </magemash_newproductlist>
+            </updates>
+        </layout>
+    </frontend>
+</config>

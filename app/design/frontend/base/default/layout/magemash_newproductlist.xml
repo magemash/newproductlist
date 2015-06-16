@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <new_index_index>
+        <reference name="content">
+                <block type="magemash_newproductlist/catalog_product_new" column_count="6" products_count="0" name="product_new" template="catalog/product/list.phtml">
+                    <block type="core/text_list" name="product_list.name.after" as="name.after" />
+                    <block type="core/text_list" name="product_list.after" as="after" />
+                </block>
+        </reference>
+    </new_index_index>
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageMash_NewProductList>
+            <active>true</active>
+            <codePool>community</codePool>
+        </MageMash_NewProductList>
+    </modules>
+</config>
